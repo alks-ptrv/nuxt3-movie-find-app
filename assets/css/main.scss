@@ -1,0 +1,29 @@
+@import "base/module";
+// @import "components/module";
+// @import "layout/module";
+
+html {
+  box-sizing: border-box;
+  font-family: $font-family;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  // overflow-x: visible;
+  background: #101010;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: pointer;
+}
