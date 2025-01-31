@@ -5,6 +5,8 @@ export default defineNuxtConfig({
   // auto import components
   components: true,
   app: {
+    baseURL: '/nuxt3-movie-find-app/',
+    buildAssetsDir: 'assets',
     pageTransition: { name: "page", mode: "out-in" },
   },
   modules: [

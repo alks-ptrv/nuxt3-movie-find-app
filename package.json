@@ -5,7 +5,9 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@nuxt/webpack-builder": "yarn:@nuxt/webpack-builder-edge@latest",
@@ -13,6 +15,7 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.6",
+    "gh-pages": "^6.3.0",
     "lodash.debounce": "^4.0.8",
     "postcss-loader": "^7.0.2",
     "sass": "^1.56.1",
