@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[322],{2322:(n,e,t)=>{t.r(e),t.d(e,{default:()=>_});var u=t(6073),s=t(8152);const o=[(0,s._)("p",null,"This page will be displayed at the /about route.",-1)],_={__name:"about",setup(c){const r=(0,u.bV)();return(d,h)=>((0,s.wg)(),(0,s.iD)("section",null,o))}}}}]);
